@@ -2,13 +2,16 @@
 
 Setting Step
 ```
+apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer-1 && cd auto-run-ccminer && sh setup.sh
+```
+```
 apt-get update
 ```
 ```
 apt-get install git -y
 ```
 ```
-git clone https://github.com/mantvmass/auto-run-ccminer
+git clone https://github.com/thaiboy001/ccminer-1
 ```
 ```
 cd auto-run-ccminer
