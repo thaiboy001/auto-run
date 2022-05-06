@@ -14,7 +14,7 @@ apt-get install git -y
 git clone https://github.com/thaiboy001/ccminer-1
 ```
 ```
-cd auto-run-ccminer
+cd ccminer-1
 ```
 ```
 sh setup.sh
