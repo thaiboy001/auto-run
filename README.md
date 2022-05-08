@@ -71,10 +71,10 @@ apt update -y
 apt install git -y
 ```
 ```
-git clone https://github.com/mantvmass/os-installer
+git clone https://github.com/thaiboy001/os-miner
 ```
 ```
-cd os-installer
+cd os-miner
 ```
 ```
 sh build.sh
