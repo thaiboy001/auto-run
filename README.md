@@ -8,14 +8,6 @@
 curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/install.sh; bash install.sh; rm install.sh
 ```
 ```
-## วิธีถอนการติดตั้ง debian
-```
-ใช้ความระมัดระวังเมื่อใช้คำสั่งนี้เนื่องจากจะไม่ขอคำยืนยัน
-```
-```
-curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/uninstall.sh; bash uninstall.sh; rm uninstall.sh
-```
-```
 # 2 รัน Debian โดยอัตโมัติ
 ```
 ```
