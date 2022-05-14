@@ -61,10 +61,9 @@ stratum+tcp://heavyhash.sea.mine.zpool.ca:5138
 * หากต้องการเปลี่ยน pool or wallet ใช้คำสั่ง ```edit-miner```
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 ออกจากระบบ Debian จากเทอร์มินัล  ```exit```
-
 ```
 คําสั่งถอนการติดตั้ง Debian กรณีผิดพลาด ลงใหม่ ถอนออกลงใหม่ต่อได้เลย
-```
-ออกจากระบบ Debian จากเทอร์มินัล  ```exit```
+ออกจากระบบ Debian จากเทอร์มินัล  ``exit``
+````
 curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/uninstall.sh; bash uninstall.sh; rm uninstall.sh
 ```
