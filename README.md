@@ -42,10 +42,8 @@ run-miner
 curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/install.sh; ทุบตี install.sh; rm install.sh
 7
 ```
-8
-วิธีเรียกใช้```start-debian-bullseye```เพื่อเข้าสู่ระบบ
 9
-## ถอนการติดตั้ง
+## วิธีถอนการติดตั้ง debian
 10
 ใช้ความระมัดระวังเมื่อใช้คำสั่งนี้เนื่องจากจะไม่ขอคำยืนยัน
 11
