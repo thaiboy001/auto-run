@@ -1,4 +1,4 @@
-# 1 เปิด Termux และรัน (Debian โดยอัตโมัติ
+# 1 เปิด Termux และรัน Debian โดยอัตโมัติ
 ## ให้ติดตั้ง Linux(Debian)
 การติดตั้ง
 คัดลอกและวางคำสั่งนี้ลงใน Termux:
@@ -15,7 +15,7 @@ Linux(Debian) เพิ่มข้อมูลนี้ใน profile บรร
 ```
 start-debian-bullseye
 ```
-จบขั้นตอน เปิด Termux และรัน (Debian โดยอัตโมัติ
+จบขั้นตอน เปิด Termux และรัน Debian โดยอัตโมัติ
 # 3 AUTO รัน CCMINER ใน TERMUX
 แบบเร็ว
 ```
