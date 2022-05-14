@@ -5,9 +5,7 @@
 ```
 curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/install.sh; bash install.sh; rm install.sh
 ```
-```
 # 2 รัน Debian โดยอัตโมัติ
-```
 ```
 pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 ```
