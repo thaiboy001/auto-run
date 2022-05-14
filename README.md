@@ -42,7 +42,6 @@ sh setup.sh
 run-miner
 ```
 ## pool
-```
 luckpool
 ```
 stratum+tcp://ap.luckpool.net:3956
