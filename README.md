@@ -19,7 +19,7 @@ start-debian-bullseye
 # 3 AUTO รัน CCMINER-v.1 ใน TERMUX -- github by mantvmass --
 แบบเร็ว
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer-v1 && cd ccminer-1 && sh setup.sh
+apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer && cd ccminer && sh setup.sh
 ```
 แบบทีละคําสั่ง
 ```
@@ -29,10 +29,10 @@ apt-get update
 apt-get install git -y
 ```
 ```
-git clone https://github.com/thaiboy001/ccminer-v1
+git clone https://github.com/thaiboy001/ccminer
 ```
 ```
-cd ccminer-v1
+cd ccminer
 ```
 ```
 sh setup.sh
