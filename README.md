@@ -47,7 +47,6 @@ stratum+tcp://ap.luckpool.net:3956
 ```
 zergpool
 ```
-```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
 ```
