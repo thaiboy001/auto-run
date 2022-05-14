@@ -66,4 +66,3 @@ stratum+tcp://heavyhash.sea.mine.zpool.ca:5138
 ออกจากระบบ Debian จากเทอร์มินัล  ``exit``
 ````
 curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/uninstall.sh; bash uninstall.sh; rm uninstall.sh
-```
