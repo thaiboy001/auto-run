@@ -23,11 +23,15 @@ apt-get update -y && apt-get install git -y && git clone https://github.com/thai
 ```
 apt-get update
 ```
+```
 apt-get install git -y
+```
 ```
 git clone https://github.com/thaiboy001/ccminer-1
 ```
+```
 cd ccminer-1
+```
 ```
 sh setup.sh
 ```
