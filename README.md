@@ -17,9 +17,6 @@ start-debian-bullseye
 ```
 * จบขั้นตอน เปิด Termux และรัน (Debian โดยอัตโมัติ
 # 3 AUTO รัน CCMINER ใน TERMUX
-```
-* Setting Step
-```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer-1 && cd ccminer-1 && sh setup.sh
 ```
 apt-get update
