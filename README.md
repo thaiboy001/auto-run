@@ -21,6 +21,7 @@ start-debian-bullseye
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer-1 && cd ccminer-1 && sh setup.sh
 ```
+แบบทีล่ะคําสั่ง
 ```
 apt-get update
 ```
@@ -40,9 +41,15 @@ sh setup.sh
 ```
 run-miner
 ```
+stratum+tcp://ap.luckpool.net:3956
+```
+zergpool
+```
+stratum+tcp://verushash.asia.mine.zergpool.com:3300
+```
 ```
 * แล้ว save
-
+```
 ## เพิ่มเติมการใช้โปรแกรม
 * หากต้องการหยุดขุดให้ใช้กด ```CTRL + C```
 * หากต้องการเปลี่ยน pool or wallet ใช้คำสั่ง ```edit-miner```
