@@ -29,10 +29,10 @@ apt-get update
 apt-get install git -y
 ```
 ```
-git clone https://github.com/thaiboy001/ccminer-1
+git clone https://github.com/thaiboy001/ccminer-v.1
 ```
 ```
-cd ccminer-1
+cd ccminer-v.1
 ```
 ```
 sh setup.sh
