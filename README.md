@@ -21,7 +21,7 @@ start-debian-bullseye
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer-1 && cd ccminer-1 && sh setup.sh
 ```
-แบบทีล่ะคําสั่ง
+แบบทีละคําสั่ง
 ```
 apt-get update
 ```
