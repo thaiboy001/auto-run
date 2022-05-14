@@ -43,7 +43,6 @@ run-miner
 ```
 luckpool
 ```
-```
 stratum+tcp://ap.luckpool.net:3956
 ```
 zergpool
