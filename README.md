@@ -8,33 +8,27 @@ curl --silent --location --remote-name https://raw.githubusercontent.com/trungta
 # 2 รัน Debian โดยอัตโมัติ
 ```
 pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
-
 ```
 เมื่อใช้คำสั่งด้านบนเสร็จแล้ว และไม่มีerror ขั้นตอนต่อไปเราจะมาเพิ่มข้อมูลในไฟล์ profile กันโดยที่ไฟล์นี้
-* จะเปิดขึ้นมาเองหลังจากใช้คำสั่งด้านบน สิ่งที่จะเพิ่มไปในไฟลมี 2 อย่างตามระบบที่คุณติดตั้ง
+จะเปิดขึ้นมาเองหลังจากใช้คำสั่งด้านบน สิ่งที่จะเพิ่มไปในไฟลมี 2 อย่างตามระบบที่คุณติดตั้ง
 ## Linux(Debian) เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
 ```
 start-debian-bullseye
 ```
 * จบขั้นตอน เปิด Termux และรัน (Debian โดยอัตโมัติ
-# AUTO รัน CCMINER ใน TERMUX
+# 3 AUTO รัน CCMINER ใน TERMUX
 ```
 * Setting Step
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer-1 && cd ccminer-1 && sh setup.sh
 ```
-```
 apt-get update
-```
 ```
 apt-get install git -y
 ```
-```
 git clone https://github.com/thaiboy001/ccminer-1
 ```
-```
 cd ccminer-1
-```
 ```
 sh setup.sh
 ```
