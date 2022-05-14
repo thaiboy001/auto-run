@@ -1,11 +1,9 @@
 # 1 เปิด Termux และรัน (Debian โดยอัตโมัติ
 ```
 ## ให้ติดตั้ง Linux(Debian)
-```
 ## การติดตั้ง
 ```
 คัดลอกและวางคำสั่งนี้ลงใน Termux:
-```
 ```
 curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/install.sh; bash install.sh; rm install.sh
 ```
