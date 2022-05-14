@@ -1,4 +1,4 @@
-# AUTO RUN CCMINER IN TERMUX
+# AUTO รัน CCMINER ใน TERMUX
 
 Setting Step
 ```
@@ -20,7 +20,9 @@ cd ccminer-1
 sh setup.sh
 ```
 * หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น
-- ```run-miner```
+```
+run-miner
+```
 * แล้ว save
 
 ## เพิ่มเติมการใช้โปรแกรม
@@ -28,10 +30,31 @@ sh setup.sh
 * หากต้องการเปลี่ยน pool or wallet ใช้คำสั่ง ```edit-miner```
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 
-# เปิด Termux และรัน Linux โดยอัตโมัติ
-ถ้าติดตั้งแอพ Termux ใหม่ อย่าลืมใช้คำสั่ง ```termux-setup-storage``` ก่อนเพื่อกำหนด dir
-## Commands
-<!-- [ ให้ติดตั้ง Linux(Ubuntu) เมนูที่ 1 ผ่าน os-installer ให้เรียบร้อยก่อน ](https://github.com/mantvmass/os-installer) -->
+# เปิด Termux และรัน (Debian โดยอัตโมัติ
+
+## 1.ให้ติดตั้ง Linux(Debian)
+## การติดตั้ง
+4
+คัดลอกและวางคำสั่งนี้ลงใน Termux:
+5
+```
+6
+curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/install.sh; ทุบตี install.sh; rm install.sh
+7
+```
+8
+วิธีเรียกใช้```start-debian-bullseye```เพื่อเข้าสู่ระบบ
+9
+## ถอนการติดตั้ง
+10
+ใช้ความระมัดระวังเมื่อใช้คำสั่งนี้เนื่องจากจะไม่ขอคำยืนยัน
+11
+```
+12
+curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/uninstall.sh; bash uninstall.sh; rm ถอนการติดตั้ง.sh
+13
+```
+# รัน Debian โดยอัตโมัติ
 
 ```
 pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
@@ -41,50 +64,10 @@ pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 จะเปิดขึ้นมาเองหลังจากใช้คำสั่งด้านบน สิ่งที่จะเพิ่มไปในไฟลมี 2 อย่างตามระบบที่คุณติดตั้ง
 
 
-## os-installer เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
+## Linux(Debian) เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
 ```
-cd && cd /data/data/com.termux/files/usr/etc/os-install
-sh ubun.sh
+start-debian-bullseye
 ```
-
-## proot-distro เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย 
-```
-proot-distro login ubuntu
-```
-
-## เพิ่มเติม
-การติดตั้ง Ubuntu โดยไม่ผ่าน os-installer ให้ใช้ pkg: proot-distro
-```
-pkg install proot-distro
+จบขั้นตอน เปิด Termux และรัน (Debian โดยอัตโมัติ
 ```
 ```
-proot-distro install ubuntu
-```
-
-สร้างมาเพื่อใช้ในการติดตั้งระบบต่างๆที่เป็น Linux บน Termux
-
-วิธีติดตั้ง:
-```
-apt update -y
-```
-```
-apt install git -y
-```
-```
-git clone https://github.com/thaiboy001/os-miner
-```
-```
-cd os-miner
-```
-```
-sh build.sh
-```
-<br>
-
-วิธีเรียกใช้งาน สามารถเรียกในหน้าไหนก็ได้โดยใช้คำสัง
-```
-os-installer
-```
-- คำสั่งนี้ไม่เกี่ยวนะเพิ่มไว้เฉยๆ ``` ./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u RQpWNdNZ4LQ5yHUM3VAVuhUmMMiMuGLUhT.OMG-MINER -p x -t 8 ```
-![alt text](https://github.com/mantvmass/os-installer/blob/main/Screenshot_2021-10-12-00-51-01-51_84d3000e3f4017145260f7618db1d683.jpg?raw=true)
-
