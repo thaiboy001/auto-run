@@ -9,6 +9,10 @@ curl --silent --location --remote-name https://raw.githubusercontent.com/trungta
 ```
 pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 ```
+ออกจากระบบ Debian จากเทอร์มินัล
+```
+exit
+```
 เมื่อใช้คำสั่งด้านบนเสร็จแล้ว และไม่มี error ขั้นตอนต่อไปเราจะมาเพิ่มข้อมูลในไฟล์ profile กันโดยที่ไฟล์นี้
 จะเปิดขึ้นมาเองหลังจากใช้คำสั่งด้านบน สิ่งที่จะเพิ่มไปตามระบบที่คุณติดตั้ง
 Linux (Debian) เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
