@@ -1,4 +1,4 @@
-# 1 เปิด Termux และรัน ubuntu โดยอัตโมัติ
+# 1 เปิด Termux และรัน ubuntu โดยอัตโมัติ แก้ลงไม่ผ่าน CCMINER-v.1
 ## ให้ติดตั้ง Linux (ubuntu)
 การติดตั้ง
 ถ้าติดตั้งแอพ Termux ใหม่ อย่าลืมใช้คำสั่ง ```termux-setup-storage``` ก่อนเพื่อกำหนด dir
