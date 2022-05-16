@@ -7,7 +7,7 @@ termux-setup-storage
 ```
 คัดลอกและวางคำสั่งนี้ลงใน Termux:
 ```
-pkg install proot-distro
+pkg install proot-distro -y
 ```
 ```
 proot-distro install ubuntu
