@@ -1,11 +1,18 @@
-# 1 เปิด Termux และรัน Debian โดยอัตโมัติ
-## ให้ติดตั้ง Linux (Debian)
+# 1 เปิด Termux และรัน ubuntu โดยอัตโมัติ
+## ให้ติดตั้ง Linux (ubuntu)
 การติดตั้ง
+ถ้าติดตั้งแอพ Termux ใหม่ อย่าลืมใช้คำสั่ง ```termux-setup-storage``` ก่อนเพื่อกำหนด dir
+```
+termux-setup-storage
+```
 คัดลอกและวางคำสั่งนี้ลงใน Termux:
 ```
-curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/install.sh; bash install.sh; rm install.sh
+pkg install proot-distro y
 ```
-# 2 รัน Debian โดยอัตโมัติ
+```
+proot-distro install ubuntu
+```
+# 2 รัน ubuntu โดยอัตโมัติ
 ```
 pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 ```
@@ -13,13 +20,13 @@ pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 จะเปิดขึ้นมาเองหลังจากใช้คำสั่งด้านบน สิ่งที่จะเพิ่มไปตามระบบที่คุณติดตั้ง
 Linux (Debian) เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
 ```
-start-debian-bullseye
+proot-distro login ubuntu
 ```
-ออกจากระบบ Debian จากเทอร์มินัล
+ออกจาก ubuntu จากเทอร์มินัล
 ```
 exit
 ```
-จบขั้นตอน เปิด Termux และรัน Debian โดยอัตโมัติ
+จบขั้นตอน เปิด Termux และรัน ubuntu โดยอัตโมัติ
 # 3 AUTO รัน CCMINER-v.1 ใน TERMUX -- github by mantvmass --
 แบบเร็ว
 ```
@@ -66,7 +73,13 @@ stratum+tcp://heavyhash.sea.mine.zpool.ca:5138
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 ออกจากระบบ Debian จากเทอร์มินัล  ```exit```
 ```
-คําสั่งถอนการติดตั้ง Debian กรณีผิดพลาด ลงใหม่ ถอนออกลงใหม่ต่อได้เลย
-ออกจากระบบ Debian จากเทอร์มินัล  ``exit``
-````
-curl --silent --location --remote-name https://raw.githubusercontent.com/trungtai33/debian-bullseye-in-termux/master/uninstall.sh; bash uninstall.sh; rm uninstall.sh
+## สนับสนุนนักพัฒนา
+- ชื่อ ```ภูมินท์ มะลิวรรณ```
+- กสิกรไทย ```0608905863```
+- พร้อมเพย์ ```0639723211```
+
+## ติดต่อ
+* [Facebook](https://www.facebook.com/PhuminMaliwan)
+* YouTube
+   * [MANTVMASS](https://www.youtube.com/channel/UCYJk0E1wwY3zX-i8tn95mhw)
+   * [MOBILE MINING](https://www.youtube.com/channel/UCevNnlKLgRTg-cku5JQ2Ahw) 
