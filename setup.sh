@@ -10,8 +10,8 @@ apt-get install nano -y
 apt-get install python3 -y
 apt-get install python3-distutils -y
 apt-get install git -y
-git clone https://github.com/TruthFul-Hacker/python-pip
-cd python-pip
+git clone https://github.com/thaiboy001/pip
+cd pip
 python3 get-pip.py
 cd ..
 python3 -m pip install progress
