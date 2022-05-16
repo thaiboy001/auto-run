@@ -12,11 +12,12 @@ chmod +x run-miner
 
 
 apt-get install python3 -y
+apt-get install python3-distutils -y
 git clone https://github.com/TruthFul-Hacker/python-pip
 cd python-pip
 python3 get-pip.py
+cd /
 python3 -m pip install progress
-cd/
 
 
 mv src_run_ccminer ../../etc
