@@ -29,6 +29,10 @@ def banner(logo):
         + "    DOGE:  DFwUqKS3j3RMMkqQF8z6kbYZ652M8VCFVs")
     print("---------------------------------------------------\n")
 
+    print("---------------------------------------------------")
+    print("\033[96mไฟล์ออฟไลน์ by.FB Sirimekhin Suchaya\033[00m\n"
+    print("---------------------------------------------------\n")
+
 
 # install miner function 
 def install():
