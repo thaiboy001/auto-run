@@ -25,6 +25,7 @@ def banner(logo):
     print("\033[96mไฟล์ออฟไลน์ by.FB Sirimekhin Suchaya\033[00m\n"
     print("---------------------------------------------------\n")
 
+
 # setting function
 def set_miner():
     banner(edit_banner)
