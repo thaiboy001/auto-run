@@ -27,7 +27,7 @@ proot-distro login ubuntu
 exit
 ```
 จบขั้นตอน เปิด Termux และรัน ubuntu โดยอัตโมัติ
-# 3 AUTO รัน CCMINER-v.1 ใน TERMUX -- github by mantvmass --
+# 3 AUTO รัน CCMINER-v.1 ใน TERMUX ### Created by [mantvmass](https://github.com/mantvmass)
 แบบเร็ว
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer && cd ccminer && sh setup.sh
