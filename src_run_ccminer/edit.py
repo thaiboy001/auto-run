@@ -1,9 +1,6 @@
 import os, json, time
 from progress.spinner import MoonSpinner
 
-import os, json, time
-from progress.spinner import MoonSpinner
-
 # banner
 edit_banner = """
 ███████╗██████╗ ██╗████████╗
