@@ -22,7 +22,7 @@ def run():
         time.sleep(3)
         set_miner()
     # print(pool, wallet, password, cpu)
-    print("ccminer CPU3.7 for VerusHash v2.1 - 2.2 by Monkins1010 based on ccminer")
+    print("ccminer CPU3.7 for VerusHash 2.2 By. Monkins101")
     os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
 
 def set_miner():
