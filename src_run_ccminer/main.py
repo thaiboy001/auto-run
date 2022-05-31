@@ -99,7 +99,7 @@ while True:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
-    if os.path.exists("ccminer_mmv") == False:
+    if os.path.exists("ccminer_one") == False:
         install()
         break
     if os.path.exists("set-miner") == True:
