@@ -1,6 +1,11 @@
 import os, json, time
 from progress.spinner import MoonSpinner
 
+# banner function
+def banner(logo):
+    os.system("clear")
+    print(logo,"\nCreated by.mobile-mining")
+
 # setting function
 def set_miner():
     banner(edit_banner)
