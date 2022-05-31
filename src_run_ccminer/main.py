@@ -1,33 +1,7 @@
 import os, json, time
 from progress.spinner import MoonSpinner
 
-# banner
-setting_banner = """
-███████╗███████╗████████╗████████╗██╗███╗   ██╗ ██████╗ 
-██╔════╝██╔════╝╚══██╔══╝╚══██╔══╝██║████╗  ██║██╔════╝ 
-███████╗█████╗     ██║      ██║   ██║██╔██╗ ██║██║  ███╗
-╚════██║██╔══╝     ██║      ██║   ██║██║╚██╗██║██║   ██║
-███████║███████╗   ██║      ██║   ██║██║ ╚████║╚██████╔╝
-╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝"""
 
-running_banner = """
-██████╗ ██╗   ██╗███╗   ██╗         
-██╔══██╗██║   ██║████╗  ██║         
-██████╔╝██║   ██║██╔██╗ ██║         
-██╔══██╗██║   ██║██║╚██╗██║         
-██║  ██║╚██████╔╝██║ ╚████║██╗██╗██╗
-╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝╚═╝"""
-
-# banner function
-def banner(logo):
-    os.system("clear")
-    print(logo,"\nCreated by.mobile-mining")
-    print("---------------------------------------------------") 
-    print("\033[96mสนับสนุนนักพัมนา\033[00m\n"
-        + " กสิกรไทย: 0608905863\n"
-        + "     LTC:  LTT2X57ervCMpfNva5uo1JBzT2UJVBiEZu\n"
-        + "    DOGE:  DFwUqKS3j3RMMkqQF8z6kbYZ652M8VCFVs")
-    print("---------------------------------------------------\n")
 
 # install miner function 
 def install():
@@ -36,7 +10,6 @@ def install():
 
 # run miner function
 def run():
-    banner(running_banner)
     with open("set-miner/miner.json", encoding="utf-8") as set:
         load = set.read()
         loads = json.loads(load)
@@ -50,12 +23,9 @@ def run():
         set_miner()
     # print(pool, wallet, password, cpu)
     print("ccminer CPU3.7 for VerusHash v2.1 - 2.2 by Monkins1010 based on ccminer")
-    print("Originally based on Christian Buchner and Christian H. project")
-    print("\033[93mLocated at\033[00m: https://github.com/thaiboy001/ccminer")
     os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
 
 def set_miner():
-    banner(setting_banner)
     pool = None
     wallet = None
     password = None
