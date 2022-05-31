@@ -11,6 +11,8 @@ pkg install proot-distro -y
 ```
 ```
 proot-distro install ubuntu
+หรือ
+proot-distro install debian
 ```
 # 2 รัน ubuntu โดยอัตโมัติ
 ```
@@ -21,6 +23,8 @@ pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 Linux (Debian) เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
 ```
 proot-distro login ubuntu
+หรือ
+proot-distro install debian
 ```
 ออกจาก ubuntu จากเทอร์มินัล
 ```
