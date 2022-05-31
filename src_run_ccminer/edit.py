@@ -24,11 +24,6 @@ def banner(logo):
         + "    DOGE:  DFwUqKS3j3RMMkqQF8z6kbYZ652M8VCFVs")
     print("---------------------------------------------------\n")
 
-# banner function
-def banner(logo):
-    os.system("clear")
-    print(logo,"\nCreated by.mobile-mining")
-    print("-------------------------------")
 
 # setting function
 def set_miner():
