@@ -1,5 +1,5 @@
 # 1 เปิด Termux และรัน ubuntu โดยอัตโมัติ แก้ลงไม่ผ่าน CCMINER-v.1
-## ให้ติดตั้ง Linux (ubuntu)
+## ให้ติดตั้ง Linux (ubuntu)และ(debian) *เลือกลงอย่างใดอย่างหนึ่ง
 การติดตั้ง
 ถ้าติดตั้งแอพ Termux ใหม่ อย่าลืมใช้คำสั่ง ```termux-setup-storage``` ก่อนเพื่อกำหนด dir
 ```
@@ -9,9 +9,12 @@ termux-setup-storage
 ```
 pkg install proot-distro -y
 ```
+* Linux (ubuntu) อูบุนตู (22.04)
 ```
 proot-distro install ubuntu
-หรือ
+```
+* หรือ Linux (debian) เดเบียน (เสถียร)
+```
 proot-distro install debian
 ```
 # 2 รัน ubuntu โดยอัตโมัติ
@@ -20,11 +23,15 @@ pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 ```
 เมื่อใช้คำสั่งด้านบนเสร็จแล้ว และไม่มี error ขั้นตอนต่อไปเราจะมาเพิ่มข้อมูลในไฟล์ profile กันโดยที่ไฟล์นี้
 จะเปิดขึ้นมาเองหลังจากใช้คำสั่งด้านบน สิ่งที่จะเพิ่มไปตามระบบที่คุณติดตั้ง
-Linux (Debian) เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
+Linux (Debian) (ubuntu) เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
+
+* Linux (ubuntu) อูบุนตู (22.04)
 ```
 proot-distro login ubuntu
-หรือ
-proot-distro install debian
+```
+* หรือ Linux (debian) เดเบียน (เสถียร)
+```
+proot-distro login debian
 ```
 ออกจาก ubuntu จากเทอร์มินัล
 ```
