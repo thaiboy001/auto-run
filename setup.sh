@@ -29,7 +29,7 @@ mv run-miner ../../bin
 run-miner
 
 
-cd && cd ../etc/src_run_ccminer/ccminer_1
+cd && cd ../etc/src_run_ccminer/ccminer_one
 chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
