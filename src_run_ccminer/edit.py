@@ -5,6 +5,7 @@ from progress.spinner import MoonSpinner
 def banner(logo):
     os.system("clear")
     print(logo,"\nCreated by.mobile-mining")
+    print("-------------------------------")
 
 # setting function
 def set_miner():
