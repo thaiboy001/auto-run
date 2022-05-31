@@ -30,7 +30,7 @@ exit
 # 3 AUTO รัน CCMINER-v.1 ใน TERMUX ### Created by [mantvmass](https://github.com/mantvmass)
 แบบเร็ว
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/ccminer && cd ccminer && sh setup.sh
+apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/auto_run_v_1 && cd ccminer && sh setup.sh
 ```
 แบบทีละคําสั่ง
 ```
@@ -40,10 +40,10 @@ apt-get update
 apt-get install git -y
 ```
 ```
-git clone https://github.com/thaiboy001/ccminer
+git clone https://github.com/thaiboy001/auto_run_v_1
 ```
 ```
-cd ccminer
+cd auto_run_v_1
 ```
 ```
 sh setup.sh
