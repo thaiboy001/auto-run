@@ -1,12 +1,6 @@
 import os, json, time
 from progress.spinner import MoonSpinner
 
-# banner function
-def banner(logo):
-    os.system("clear")
-    print(logo,"\nCreated by.mobile-mining")
-    print("-------------------------------")
-
 # install miner function 
 def install():
     # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
