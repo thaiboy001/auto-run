@@ -38,8 +38,8 @@ proot-distro login debian
 exit
 ```
 จบขั้นตอน เปิด Termux และรัน (Debian) (ubuntu) โดยอัตโมัติ
-## 3 AUTO รัน CCMINER V.1 ใน TERMUX Created by [mantvmass](https://github.com/mantvmass)
-* แบบเร็ว
+## 3 AUTO รัน CCMINER V.1 ใน TERMUX Created By [mantvmass](https://github.com/mantvmass)
+* แบบเร็ว รวบคําสั่ง
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/auto-run && cd auto-run && sh setup.sh
 ```
