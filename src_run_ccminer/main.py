@@ -33,7 +33,7 @@ def banner(logo):
 # install miner function 
 def install():
     # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
-    os.system("git clone https://github.com/thaiboy001/ccminer_one")
+    os.system("git clone https://github.com/thaiboy001/ccminer")
 
 # run miner function
 def run():
@@ -53,7 +53,7 @@ def run():
     print("ccminer CPU3.7 for VerusHash v2.1 - 2.2 by Monkins1010 based on ccminer")
     print("Originally based on Christian Buchner and Christian H. project")
     print("\033[93mLocated at\033[00m: http://github.com/monkins1010/ccminer")
-    os.system(f"cd ccminer_one && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
+    os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
 
 def set_miner():
     banner(setting_banner)
@@ -99,7 +99,7 @@ while True:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
-    if os.path.exists("ccminer_one") == False:
+    if os.path.exists("ccminer") == False:
         install()
         break
     if os.path.exists("set-miner") == True:
