@@ -1,4 +1,4 @@
-# 1 เปิด Termux และรัน ubuntu โดยอัตโมัติ แก้ลงไม่ผ่าน CCMINER-v.1
+## 1 เปิด Termux และรัน ubuntu โดยอัตโมัติ แก้ลงไม่ผ่าน CCMINER-v.1
 ### ให้ติดตั้ง Linux (ubuntu) หรือ (debian) *เลือกลงอย่างใดอย่างหนึ่ง
 การติดตั้ง
 ถ้าติดตั้งแอพ Termux ใหม่ อย่าลืมใช้คำสั่ง ```termux-setup-storage``` ก่อนเพื่อกำหนด dir
@@ -17,7 +17,7 @@ proot-distro install ubuntu
 ```
 proot-distro install debian
 ```
-# 2 รัน (Debian) (ubuntu) โดยอัตโมัติ
+## 2 รัน (Debian) (ubuntu) โดยอัตโมัติ
 ```
 pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
 ```
@@ -38,7 +38,7 @@ proot-distro login debian
 exit
 ```
 จบขั้นตอน เปิด Termux และรัน (Debian) (ubuntu) โดยอัตโมัติ
-# 3 AUTO รัน CCMINER V.1 ใน TERMUX Created by [mantvmass](https://github.com/mantvmass)
+## 3 AUTO รัน CCMINER V.1 ใน TERMUX Created by [mantvmass](https://github.com/mantvmass)
 * แบบเร็ว
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/auto-run && cd auto-run && sh setup.sh
