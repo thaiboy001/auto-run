@@ -1,5 +1,5 @@
 # 1 เปิด Termux และรัน ubuntu โดยอัตโมัติ แก้ลงไม่ผ่าน CCMINER-v.1
-## ให้ติดตั้ง Linux (ubuntu) หรือ (debian) *เลือกลงอย่างใดอย่างหนึ่ง
+### ให้ติดตั้ง Linux (ubuntu) หรือ (debian) *เลือกลงอย่างใดอย่างหนึ่ง
 การติดตั้ง
 ถ้าติดตั้งแอพ Termux ใหม่ อย่าลืมใช้คำสั่ง ```termux-setup-storage``` ก่อนเพื่อกำหนด dir
 ```
@@ -39,11 +39,11 @@ exit
 ```
 จบขั้นตอน เปิด Termux และรัน ubuntu โดยอัตโมัติ
 # 3 AUTO รัน CCMINER-v.1 ใน TERMUX ### Created by [mantvmass](https://github.com/mantvmass)
-แบบเร็ว
+* แบบเร็ว
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/auto-run && cd auto-run && sh setup.sh
 ```
-แบบทีละคําสั่ง
+* แบบทีละคําสั่ง
 ```
 apt-get update
 ```
@@ -64,15 +64,15 @@ sh setup.sh
 run-miner
 ```
 ## pool
-luckpool
+* luckpool
 ```
 stratum+tcp://ap.luckpool.net:3956
 ```
-zergpool
+* zergpool
 ```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
-zpool
+* zpool
 ```
 stratum+tcp://heavyhash.sea.mine.zpool.ca:5138
 ```
