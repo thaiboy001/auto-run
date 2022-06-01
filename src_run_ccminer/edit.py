@@ -17,7 +17,7 @@ def set_miner():
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
         password = input("Password[-p]: ")
 
-        print("\033[93m 0 ขึ้นไป หรือ เท่ากับจำนวณเธรดCPUท่าน เช็ค 'lscpu'\033[00m")
+        print("\033[93m 0 ขึ้นไป หรือ เท่ากับจำนวณเธรด CPU เช็ค 'lscpu'\033[00m")
         cpu = int(input("CPU[-t]: "))
         
         if pool == "" or wallet == "":
@@ -41,10 +41,9 @@ def set_miner():
 
 # check path & main process
 os.system("clear")
-with MoonSpinner("กำลังทำงาน...") as bar:
+with MoonSpinner("กําลังเปิดตัวเปลี่ยนพูลและกระเป๋า...") as bar:
         for i in range(100):
             time.sleep(0.05)
-            bar.next()
 if os.path.exists("set-miner") == True:
     set_miner()
 else:
