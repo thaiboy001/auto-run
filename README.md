@@ -6,6 +6,16 @@
 termux-setup-storage
 ```
 คัดลอกและวางคำสั่งนี้ลงใน Termux:
+* แบบเร็ว รวมคําสั่ง
+* Linux (ubuntu) อูบุนตู (22.04)
+```
+pkg install proot-distro -y && proot-distro install ubuntu && pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
+```
+* หรือ Linux (debian) เดเบียน (เสถียร)
+```
+pkg install proot-distro -y && proot-distro install debian && pkg install nano && cd /data/data/com.termux/files/usr/etc && nano profile
+```
+* แบบทีละคําสั่ง
 ```
 pkg install proot-distro -y
 ```
@@ -63,6 +73,7 @@ sh setup.sh
 ```
 run-miner
 ```
+แล้ว save
 ## pool
 * luckpool
 ```
@@ -76,20 +87,32 @@ stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
 stratum+tcp://heavyhash.sea.mine.zpool.ca:5138
 ```
-แล้ว save
+## wallet
+```
 ```
 ## เพิ่มเติมการใช้โปรแกรม
 * หากต้องการหยุดขุดให้ใช้กด ```CTRL + C```
-* หากต้องการเปลี่ยน pool or wallet ใช้คำสั่ง ```edit-miner```
-* หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
-* ออกจาก ubuntu จากเทอร์มินัล  ```exit```
+* หากต้องการเปลี่ยน pool or wallet ใช้คำสั่ง 
 ```
-## สนับสนุนนักพัฒนา
+edit-miner
+```
+* หากต้องการเปิดขุด ใช้คำสั่ง 
+```
+run-miner
+```
+* ออกจากเทอร์มินัล
+```
+exit
+```
+### CCminer V.1 แก้และเรียบเรียง ใหม่ By.* [Facebook](https://github.com/thaiboy001)
+
+
+### สนับสนุนนักพัฒนา
 - ชื่อ ```ภูมินท์ มะลิวรรณ```
 - กสิกรไทย ```0608905863```
 - พร้อมเพย์ ```0639723211```
 
-## ติดต่อ
+### ติดต่อ
 * [Facebook](https://www.facebook.com/PhuminMaliwan)
 * YouTube
    * [MANTVMASS](https://www.youtube.com/channel/UCYJk0E1wwY3zX-i8tn95mhw)
