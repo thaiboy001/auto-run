@@ -44,6 +44,8 @@ os.system("clear")
 with MoonSpinner("กําลังเปิดตัวเปลี่ยนพูลและกระเป๋า...") as bar:
         for i in range(100):
             time.sleep(0.05)
+             bar.next()
+          bar.finish()
 if os.path.exists("set-miner") == True:
     set_miner()
 else:
