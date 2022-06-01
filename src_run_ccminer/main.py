@@ -6,7 +6,7 @@ from progress.spinner import MoonSpinner
 # install miner function 
 def install():
     # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
-    os.system("git clone https://github.com/thaiboy001/ccminer")
+    os.system("git clone --single-branch -b ARM https://github.com/thaiboy001/ccminer")
 
 # run miner function
 def run():
