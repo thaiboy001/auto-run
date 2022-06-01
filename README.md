@@ -39,7 +39,7 @@ exit
 ```
 จบขั้นตอน เปิด Termux และรัน (Debian) (ubuntu) โดยอัตโมัติ
 ## 3 Auto รัน CCminer V.1 ใน Termux Created By [mantvmass](https://github.com/mantvmass)
-* แบบเร็ว รวบคําสั่ง
+* แบบเร็ว รวมคําสั่ง
 ```
 apt-get update -y && apt-get install git -y && git clone https://github.com/thaiboy001/auto-run && cd auto-run && sh setup.sh
 ```
