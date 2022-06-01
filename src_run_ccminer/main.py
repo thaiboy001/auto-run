@@ -40,7 +40,7 @@ def set_miner():
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
         password = input("Password[-p]: ")
 
-        print("\033[93m 0 ขึ้นไป หรือ เท่ากับจำนวณเธรดCPUท่าน เช็ค 'lscpu'\033[00m")
+        print("\033[93m 0 ขึ้นไป หรือ เท่ากับจำนวณเธรด CPU เช็ค 'lscpu'\033[00m")
         cpu = int(input("CPU[-t]: "))
 
         if pool == "" or wallet == "":
@@ -67,6 +67,8 @@ while True:
     with MoonSpinner("กำลังเริ่มขุดเหรียญ Verus Coin...") as bar:
         for i in range(100):
             time.sleep(0.05)
+            bar.next()
+        bar.finish()
     if os.path.exists("ccminer") == False:
         install()
         break
