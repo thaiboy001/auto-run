@@ -104,7 +104,7 @@ run-miner
 ```
 exit
 ```
-### CCminer V.1 แก้และเรียบเรียง ใหม่ By.* [Facebook](https://github.com/thaiboy001)
+### CCminer V.1 ปรับแก้-แปลไทย By.* [Facebook](https://github.com/thaiboy001)
 
 
 ### สนับสนุนนักพัฒนา
