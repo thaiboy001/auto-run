@@ -45,7 +45,7 @@ with MoonSpinner("กำลังเรียกใช้ตัวแก้ไ�
         for i in range(100):
             time.sleep(0.05)
             bar.next()
-	bar.finish()           
+os.system("clear")  
 if os.path.exists("set-miner") == True:
     set_miner()
 else:
