@@ -64,11 +64,11 @@ def set_miner():
 
 while True:
     os.system("clear")
-    with MoonSpinner("กำลังทำงาน...") as bar:
+    with MoonSpinner("กำลังเรียกใช้ ไม'เนอะ ขุดเหรียญ...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
-    os.system("clear")        
+		bar.finish()        
     if os.path.exists("ccminer") == False:
         install()
         break
@@ -80,6 +80,7 @@ while True:
             set_miner()
     else:
         os.system("mkdir set-miner")
+
 
     
     
