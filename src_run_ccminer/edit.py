@@ -41,7 +41,7 @@ def set_miner():
 
 # check path & main process
 os.system("clear")
-with MoonSpinner("กำลังเรียกใช้แก้ไขพลูและกระเป๋า...") as bar:
+with MoonSpinner("กำลังเรียกใช้ตัวแก้ไขพลูและกระเป๋า...") as bar:
         for i in range(100):
             time.sleep(0.05)
             bar.next()
